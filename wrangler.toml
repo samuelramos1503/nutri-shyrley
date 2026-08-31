@@ -1,0 +1,7 @@
+name = "nutri-shyrley"
+main = "worker.js"
+compatibility_date = "2026-08-31"
+
+[assets]
+directory = "."
+exclude = [".git", ".git/**", "node_modules/**", "wrangler.toml", "package*.json"]
