@@ -145,6 +145,12 @@ button {
   display: flex;
   align-items: center;
   gap: 0.85rem;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.brand-info {
+  white-space: nowrap;
 }
 
 .brand-logo-img {
@@ -1014,7 +1020,20 @@ button {
   .next-btn { right: -10px; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1180px) and (min-width: 1025px) {
+  .nav {
+    gap: 0.9rem;
+  }
+  .nav-link {
+    font-size: 0.88rem;
+  }
+  .nav-cta {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 1024px) {
   .header-container {
     position: relative;
   }
